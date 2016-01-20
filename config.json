@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "name": "Homebridge-example",
+        "username": "CC:23:3D:E0:CC:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "Homebridge example to control Home with HomeKit",
+
+    "accessories": [
+        {
+            "accessory": "SoundTouch",
+            "name": "speaker bathroom",
+            "room": "Bathroom"
+        }
+    ],
+
+    "platforms": [
+
+    ]
+}
